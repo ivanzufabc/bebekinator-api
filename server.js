@@ -38,7 +38,6 @@ api.use('/api', expressJwt({ secret: config.secret }).unless({ path: ['/api/user
 // A cada require, o js é inicializado
 api.use('/api/arvoreGenealogica', require('./controllers/api/arvoreGenealogica.controller'));
 api.use('/api/users', require('./controllers/api/users.controller'));
-api.use('/api/stock', require('./controllers/api/stock.controller'));
 
 // start server API
 var serverAPI = api.listen(apiPort, function () {
