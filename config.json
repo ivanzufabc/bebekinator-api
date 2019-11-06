@@ -1,4 +1,4 @@
 ﻿{
-    "connectionString": "mongodb+srv://Bebekinator:bebekinator@bebekinator-nmn6e.azure.mongodb.net/test?retryWrites=true&w=majority",
+    "connectionString": "mongodb://Bebekinator:bebekinator@bebekinator-shard-00-00-nmn6e.azure.mongodb.net:27017,bebekinator-shard-00-01-nmn6e.azure.mongodb.net:27017,bebekinator-shard-00-02-nmn6e.azure.mongodb.net:27017/bebes?ssl=true&replicaSet=Bebekinator-shard-0&authSource=admin&retryWrites=true&w=majority",
     "secret": "SECRET"
 }
