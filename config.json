@@ -1,0 +1,4 @@
+﻿{
+    "connectionString": "mongodb+srv://Bebekinator:bebekinator@bebekinator-nmn6e.azure.mongodb.net/test?retryWrites=true&w=majority",
+    "secret": "SECRET"
+}
